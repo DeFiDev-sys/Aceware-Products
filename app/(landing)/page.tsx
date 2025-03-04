@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function LandingPageRoot() {
-  return <div>Welcome</div>;
+  return (
+    <div>
+      <LandingPageRoot />
+    </div>
+  );
 }
